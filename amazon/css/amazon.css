@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+body{text-align: center;}
+
+#hd{width: 100%; height: 106px; font-family: "arial","sans-serif"; font-size: 12px; line-height: 1em; min-width: 1000px;}
+#hdhigh{width: 100%; height: 50px; position: relative;min-height: 39px; margin: 0px 0px 0px 10px; background-image: url("images/2.png"); background-position: 140px 49px; background-repeat: no-repeat;}
+#hdlow{width: 100%;height: 56px;position: relative; background-image: url("images/BeaconSprite.png"); background-position: 0 -315px;}
+#am{position: absolute; z-index: 95; left: 9px;bottom: -5px;width: 106px;height: 40px;background-position: -9px -779px;background-image: url("images/BeaconSprite.png");}
+#hdgg{width: 440px; height: 50px; background-image: url("images/hd.gif"); cursor: pointer; position: absolute; top: -1px; *top: 0; right: 0; border-bottom: 1px solid #ddd;}
+#hdul{position: absolute; bottom: -1px; *bottom: 5px; left: 166px; white-space: nowrap; line-height: 15px; z-index: 95; list-style: none;}
+.hdli{height: 15px; float: left; margin: 6px 0 6px 0; border-left: 1px solid #ddd; display: inline;}
+#hdli1{border-left: 0px;}
+.hda{font-size: 12px; text-decoration: none; color: #004b91; margin: 0 8px 0 8px;}
+.hda:hover{color: #e47c11;}
+
+
+#search{margin: 10px 375px 0px 174px; height: 34px; position: relative; display: block;}
+#searchfield{height: 34px; margin-right: 39px; padding-left: 5px; background-image: url("images/BeaconSprite.png"); background-position: -10px -80px; background-repeat: no-repeat;}
+#searchinner{padding-left: 76px; height: 34px; background-color: #fff; background-image: url("images/BeaconSprite.png"); background-position: 0px -510px; background-repeat: repeat-x;}
+#select{cursor: pointer; display: inline-block; position: absolute; left: 3px; top: 4px; height: 27px; overflow: hidden; background-image: url("images/BeaconSprite.png"); background-position: -10px -550px; background-repeat: no-repeat; border-right: 1px solid #ddd;}
+#selectin{color: #777; font-size: 11px; white-space: nowrap; font-family: "arial","sans-serif"; text-indent: 1px; height: 27px; margin: 0px 25px 0px 6px; line-height: 27px;}
+#selectdown{top:11px; right: 10px; background-image: url("images/BeaconSprite.png"); background-position: -150px -10px; background-repeat: no-repeat; position: absolute; width: 9px; height: 5px; display: block;}
+#searchtype{display: none; position: absolute; top: 0px;left: 3px; width: 150px;height: 300px; background-color:#2f3842; z-index: 1000; border-radius: 5px;}
+#searchbtn{position: absolute; right: 0px; top: 0px; height: 34px;  background-image: url("images/BeaconSprite.png"); background-position: -33px -80px; padding: 0px 0px 0px 3px;}
+#searchsubmit{width: 39px; height: 34px; border: medium none; cursor: pointer; font-weight: bold; color: white; line-height: 15px; font-size: 13px; font-family: "arial","sans-serif"; background-color: transparent;}
+#inner{height: 33px; padding: 0 0 0 5px; background-image: url("images/search.png"); background-repeat: no-repeat;}
+#searchinput{background-color: transparent; margin: 7px 0px 0px; width: 100%; height: 23px; border: medium none; font-family: "arial","sans-serif"; font-size: 12pt; color: black;}
+#left{text-indent: 98px;width: 774px; left: -15px;height: 507px;z-index: 200; position: relative; }
+
+#all{width: 115px;height: 40px; position: absolute;left: 30px; top: -40px; background-image: url("images/all.png");}
+
+#leftleft{width: 45px; height: 507px;z-index: 200; position: relative; float:left;}
+#leftlefthd{top: 0; left: 0; width: 45px;height: 18px; background-image: url("images/lefthide.png");z-index: 200; position: absolute; }
+#leftleftcon{top: 18px;left: 0; width: 45px;height: 445px;position: absolute; background-image: url("images/lefthover.png"); background-position: -270px 0;}
+#leftleftbottom{top: 463px; width: 45px;height: 44px; background-image: url("images/lefthover.png");position: absolute;background-position: -180px -1px;}
+
+#leftmid{float: left; position: relative; width:138px; height: 507px; }
+#leftmidhd{top: 0px; left: 0px; width:100%; height: 18px; background-image: url("images/lefthide.png"); background-position: 0 -20px; position: absolute;}
+#leftmidcon{top: 18px; left: 0px; width:100%; height: 445px;position: absolute;}
+#leftmidbottom{top: 463px; left: 0px; width:100%; height: 44px; background-image: url("images/lefthide.png"); background-position: 0 -126px; position: absolute;}
+
+#leftright{float: left; width: 20px; height: 507px} 
+#leftrighthd{top: 0; left: 0px; width: 100%;height: 18px; background-image: url("images/lefthide.png"); background-position: -45px -85px;}
+#leftrightcon{top: 18px;left: 0px;width: 100%;height: 445px; background-image: url("images/lefthover.png"); background-position: -315px 0; }
+#leftrightbottom{top: 463px; left: 0px; width: 100%; height: 44px;  background-image: url("images/lefthover.png"); background-position: -225px -1px;}
+
+#procul{list-style: none;}
+.procli{float:left; height: 30px;}
+.proca{text-indent: 0; color: #000; text-decoration: none; font-size: 12px; float: left; line-height: 30px; text-align: left;}
+
+.hide{width: 571px;height: 507; float: left; background-image: url("images/p2.png"); background-repeat: no-repeat;background-position: right bottom;}
