@@ -4,6 +4,9 @@ setInterval("arrow()",500);
 
 initsection1();
 initsection2();
+initsection3();
+initsection4();
+initsection5();
 
 })
 
@@ -33,7 +36,42 @@ function initsection1(){
 }
 
 function initsection2(){
-    $("#features").mouseover(function(){
-      $(".liimg").css("width","80px");
+ 
+
+     $(".liimg").mouseover(function(){
+      $(this).stop().animate({"width":"105px","height":"105px"},400);
     });
+
+     $(".liimg").mouseout(function(){
+      $(this).stop().animate({"width":"90px","height":"90px"},400);
+    });
+}
+
+function initsection3(){
+    $(".cbq").mouseover(function(){
+       $(this).stop().animate({"width":"940px"},500);
+    });
+
+    $(".cbq").mouseout(function(){
+       $(this).stop().animate({"width":"1100px"},500);
+    });
+
+   
+}
+
+function initsection4(){
+  $(".limg").mouseover(function(){
+    $(this).css("opacity","1");
+    $(this).siblings().css("opacity","0.5");
+  });
+ 
+  
+}
+
+function initsection5(){
+  $("#fbi").mouseover(function(){
+    $("#facebook").animate({"left":"-17px","top":"-17px","width":"81px","height":"81px"},200,function(){
+      $("#facebook").css({"left":"-2px","top":"-2px","width":"51px","height":"51px"})
+    });
+  })
 }

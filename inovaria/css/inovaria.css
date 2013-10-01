@@ -18,9 +18,47 @@ body{text-decoration: none; text-align: center; font:  16px/24px  'Lato',Arial,s
 .word2{font-weight: 700;}
 .word3{font-family: 'Dotum'; font-size: 22px; line-height: 30px; font-weight: 300; letter-spacing: 0px; color: #34495e;}
 .word4{color:#7f8c9a; text-decoration: none;}
-#s2con2{overflow: visible;display: block;position: relative;width: 1070px;height: 100%;margin: 0px auto; background-image: url("images/background.png");}
+.word5{font-size: 26px; line-height: 30px; font-weight: 400; letter-spacing: 0px; color: #34495e; position: absolute; top: 40%; left: 0;right: 0;}
+#s2con2{overflow: visible;display: block;position: relative;width: 1070px;height: 664px;margin: 0px auto; background-image: url("images/background.png");}
 #features{display: block; list-style: none outside none; width: 100%; text-align: center; margin: 0px auto;}
-#features li{display: inline-block; width: 27%; margin-right: 4.2%;}
-#time{width: 105px; height: 105px; margin: 0px auto 48px; background-image: url("images/time.png"); background-size: auto auto;}
-#off{width: 105px; height: 105px; margin: 0px auto 48px; background-image: url("images/off.png"); background-size: auto auto;}
-#heart{width: 105px; height: 105px; margin: 0px auto 48px; background-image: url("images/heart.png"); background-size: cover ; background-repeat: no-repeat;}
+#features li{display: inline-block; width: 289px; height: 303px; margin-right: 4.2%; position: relative; float: left;}
+.liimg{width: 90px; height: 90px; margin: 0px auto 48px; position: absolute;top: 0; left: 0;right: 0;}
+.myimg{width: 100%; height: 100%;}
+#features li p{font-family: 'Dotum'; font-size: 22px; line-height: 24px; font-weight: 300; letter-spacing: 0px; color: #435b6a;position: absolute;bottom: 0; left: 0;right: 0;}
+.word6{font-size: 22px; line-height: 30px; font-weight: 700; letter-spacing: 0px; color: #34495e;}
+
+#section3{padding-bottom: 44px; position: relative; display: block; width: 100%; height: 1249px; margin-bottom: 48px; float: left;overflow: hidden;}
+#s3con{overflow: hidden; }
+.cbq{margin: 0 auto 0;width: 1100px;height: 336px;}
+.cbqimg{padding: 82px 9px; width: 170px; height: 172px;float: left;}
+.piccbq{width: 100%;height: 100%;}
+.col{float: right;text-align: left; padding: 48px 18px;width: 622px; height: 240px;}
+.p1{font-family: 'latolight',Arial,sans-serif; color: #34495e;}
+.p2{color: #fff;background-color: #ccc;}
+.colul{list-style: none; float: left; width: 100%; padding: 0; margin: 0;}
+.colli{float: left;background-image: url("images/geo.png"); background-repeat: no-repeat; padding-left: 25px;}
+.cola{text-decoration: none; color: #698098;}
+.cola:hover{color: #34495e;}
+
+#section4{padding-bottom: 44px; position: relative; display: block; width: 100%; height: 968px; margin-bottom: 48px; float: left;overflow: hidden;}
+#s4con1{width: 100%;height: 101px; padding: 0 65px;}
+.line{width: 400px; height: 1px; margin-top: 60px; background-color: #ccc; float: left;}
+#btn{width: 354px; height: 101px; margin: 0 35px;  float: left;}
+#storebtn{width: 100%; height: 100%; border:1px solid #27c1a2; box-shadow: 0px 1px 0px 0px rgb(33, 170, 143);background-color: #1abc9e; color: #fff; font-size: 26px; font-family: 'latolight',Arial,sans-serif;}
+#storebtn:hover{background-color: #34495e; box-shadow: 0px 1px 0px 0px rgb(43, 59, 77); border: 1px solid #3a5066;}
+#fb{width: 1070px;height: 43px; margin: 0 auto 0; border-top: 2px solid #e4e5e5; border-bottom: 2px solid #e4e5e5; background-image: url("images/fb.png"); background-position: center;}
+#fba{display: block; width: 402; height: 14px; margin: 14px 0 0 350px;}
+h6{font-size: 18px; text-align: center;}
+.limg{margin: 0 20px;}
+#organ{font-size: 13px;}
+#download{color: #34495e; font-size: 13px; font-weight: 900;}
+#download:hover{color: #698098;}
+
+#section5{display: block; width: 100%;height: 133px; padding: 100px 0 80px 0; background-color: #01838e; position: relative; float: left;}
+#s5con1{z-index: 1; position: absolute; left: 0px; right: 0px; margin-left: auto; margin-right: auto; top: 21%; }
+#se{margin: 0px auto 14px; font-size: 26px; line-height: 30px; font-weight: 400; letter-spacing: 0px; color: #fff;}
+#sea{font-size: 26px; line-height: 30px; font-weight: 500; letter-spacing: 0px; color: #fff;}
+#facebook{position: absolute; top: -2px; left: -2px; width: 51px; height: 51px; display: block; border: 2px solid #fff;opacity: 0.4; border-radius: 50px 50px 50px 50px;}
+#fbi{margin: 0 auto 0; width: 51px; height: 51px; display: block; border: 2px solid #fff;border-radius: 28px 28px 28px 28px; position: relative;background-image: url("images/facebook.png");}
+#siga{color: #fff;}
+#section6{display: block; width: 100%;height: 77px; background-color: #007781; position: relative; float: left;}
