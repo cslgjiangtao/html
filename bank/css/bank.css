@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;}
-body{text-align: center; font: 12px/24px "宋体","Helvetica Neue",Helvetica,Arial,sans-serif;}
+body{text-align: center; font: 12px/24px verdana,"microsoft YaHei","宋体",serif;  color: #4d4d4d;}
 ul{list-style: none;}
 
 #wrapper{width: 100%;position: relative; background-image: url("images/bg.jpg"); background-repeat: repeat-x;}
@@ -10,28 +10,132 @@ ul{list-style: none;}
 #en{margin: 48px 10px 0px 0px; width: 45px; height: 18px; text-align: center; float: left;}
 #topleft a{text-decoration: none;color: #666;}
 #topleft a:hover{color: #f00;}
+#topright{float: left; width: 490px; height: 82px;text-align: right;}
+#trul{width: 304px; height: auto; overflow: hidden; float: left;}
+#trul li{float: right; width: 75px; height: 36px; line-height: 36px; text-align: center; background-image: url("images/tubiao2.jpg"); background-position: 0 center; background-repeat: no-repeat;}
+#trul a{text-decoration: none; color: #4d4d4d;}
+#trul a:hover{color: #f00;}
+#search{position: absolute; right: 16px; top: 5px;}
+#searchtext{height: 25px; color: #ccc; padding: 3px 10px; line-height: 18px; width: 140px; border: 1px solid #ccc; float: left; font-size: 9pt; border-radius: 3px 0px 0px 3px }
+#searchbtn{border: 0px none; cursor: pointer; float: left; font-size: 9pt; height: 25px; margin: 0px 0px 0px -6px; text-align: center; width: 35px; background-image: url("images/s.jpg"); background-position: -152px -247px;}
+#pnum{float: left; height: 36px; line-height: 36px; width: 100%; clear: left;}
+#pnum p{float: right; padding: 0px 16px 0px 10px; overflow: auto;}
+.blue{color: rgb(18, 64, 162) !important;}
 
 #main{width: 1000px; height: auto; overflow: hidden; margin: 0px auto; background-image: url("images/menu_bg.jpg"); background-repeat: no-repeat; background-position: 50% 0px;}
 .main{width: 1000px; height: auto; overflow: hidden; margin: 0px auto; background-image: url("images/main_bg.jpg"); background-repeat: no-repeat; background-position: 50% 51px;}
 #main1{width: 978px; height: auto; overflow: hidden; margin: 32px auto 0px;}
 #main1_left{float: left; width: 660px; height: auto; overflow: hidden; margin-right: 10px;}
 #tabs{width: 660px; height: 38px; background-image: url("images/tabs_bg1.jpg");}
+#tabs li{float: left; display: block; width: 165px; height: 38px; line-height: 38px; text-align: center; font-size: 14px; font-weight: 700; cursor: pointer;}
+.t{background-image: url("images/tabs_bg2.jpg"); color: #fff;}
+
 #zhuti{width: 660px; height: 312px; overflow: hidden; background-color: #f0f5fb;}
 #zhuti1top{width: 660px; height: 230px; overflow: hidden; background-color: #e5eaee; border-bottom: 1px dashed #a2a9b1;}
+#zhuti1lm{width: 660px; height: auto; overflow: hidden;}
+#zhuti1lm ul{margin: 15px 0px 0px 15px;}
+#zhuti1lm li{float: left; width: 113px; height: 31px; line-height: 32px; font-size: 14px; font-weight: 700; cursor: pointer; }
+.z1lm1{background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position: 0px -52px; color: rgb(18, 64, 162);}
+#z1lm1 a{ padding-left: 20px;}
+.z1lm2{background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position: 0px -82px; color: #4d4d4d;}
+#z1lm2 a{ padding-left: 20px;}
+.zhuti1main{width: 100%; height: auto; overflow: hidden;}
+.zhuti1main ul{width: 100%; height: auto; float: left;}
+.zhuti1main li{cursor: pointer; float: left; width: 132px; height: 72px; text-align: center; margin-top: 8px; line-height: 20px;}
+.zhuti1main a{display: block; height: 53px; margin: 0px auto; position: relative; width: 53px;overflow: hidden;}
+.shine{background-image: url("images/shine.png"); width: 160px; height: 53px; position: absolute; top: 0px;left: -160px;}
+.zhuti1main span:hover{color:#f00;}
+
+#zhuti1main2{display: none;}
 #zhuti1bottom{width: 660px; height: auto; overflow: hidden;}
+
+#zhuti2{display: none;}
+#zhuti2top{float: left; width: 330px; height: 312px; background-image: url("images/zhuti21bg.jpg");}
+#zhuti2top h3{width: 113px; height: 30px; line-height: 30px; text-indent: 15px; margin: 15px 0px 15px 30px; font-size: 14px; font-weight: 700; background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position:  0px -113px;}
+#zhuti2top ul{width: 270px; height: auto; overflow: hidden; margin: 0px auto; text-align: left;}
+#zhuti2top li{float: left; width: 130px; height: 40px; line-height: 40px; font-size: 14px;}
+.two{background-image: url("images/li.jpg"); background-repeat: no-repeat; background-position: left center;text-indent: 36px;}
+#zhuti2top a{text-decoration: none; color: #4d4d4d;}
+#zhuti2top a:hover{color:#f00;}
+#zhuti2bottom{float: left; width: 330px; height: 312px;}
+#zhuti2bottom ul{width: 270px; height: auto; overflow: hidden; margin: 0px auto; text-align: left;}
+#zhuti2bottom h3{width: 113px; height: 30px; line-height: 30px; text-indent: 15px; margin: 15px 0px 15px 30px; font-size: 14px; font-weight: 700; background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position:  0px -203px;}
+#zhuti2bottom li{float: left; width: 130px; height: 40px; line-height: 40px; font-size: 14px;}
+#zhuti2bottom a{text-decoration: none; color: #4d4d4d;}
+#zhuti2bottom a:hover{color:#f00;}
+
+#zhuti3{display: none;}
+#zhuti3top{float: left; width: 400px; height: 312px; overflow: hidden; background-image: url("images/zhuti21bg.jpg");}
+#zt3_1{width: 370px; height: auto; overflow: hidden; margin: 0px auto }
+#zt3_1 h3{float: left; width: 113px; height: 30px; line-height: 30px; text-indent: 15px; margin: 15px 0px 0px 15px; font-size: 14px; font-weight: 700; background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position:  0px -143px;}
+#zhuti3top ul{width: 340px; height: auto; overflow: hidden; margin: 0px auto; text-align: left;}
+#zhuti3top li{float: left; width: 160px; height: 35px; line-height: 35px; font-size: 14px;}
+.tw{background-image: url("images/li.jpg"); background-repeat: no-repeat; background-position: left center;text-indent: 32px;}
+#zhuti3top a{text-decoration: none; color: #4d4d4d;}
+#zhuti3top a:hover{color:#f00;}
+#zt3_2{width: 370px; height: auto; overflow: hidden; border-top: 1px dashed rgb(162, 169, 177); margin: 8px auto 0px; }
+#zt3_2 h3{float: left; width: 113px; height: 30px; line-height: 30px; text-indent: 15px; margin: 15px 0px 0px 15px; font-size: 14px; font-weight: 700; background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position:  0px -173px;}
+
+#zt3_3{float: left; width: 260px; height: auto; overflow: hidden; font-size: 14px;}
+#zt3_3 h3{float: left; width: 113px; height: 30px; line-height: 30px; text-indent: 15px; margin: 15px 0px 0px 30px; font-size: 14px; font-weight: 700; background-image: url("images/s.jpg"); background-repeat: no-repeat; background-position:  0px -233px;}
+#zt3_3 li{cursor: pointer; float: left; width: 115px; height: 72px; text-align: center; margin-top: 8px; line-height: 20px;}
+
+#zhuti4{display: none;}
+#zhuti4 ul{width: 610px; margin: 15px auto 0px;}
+#zhuti4 li{width: 100%; height: 65px; line-height: 32px; cursor: pointer;}
+#zhuti4 a{text-decoration: none; text-align: left; display: block; width: 600px; height: 64px; margin: 0px auto; position: relative; border-bottom: 1px dashed rgb(162, 169, 177);}
+#zhuti4 a:hover{background-color: #e9eff9;}
+.tt_0{display: block; width: 510px; text-indent: 22px;font-weight: 700; font-size: 14px; color: #f00;background-image: url("images/redarrow.gif"); background-repeat: no-repeat; background-position: left center;}
+.tt_1{display: block; width: 100%; text-indent: 22px; line-height: 24px; margin-top: 4px; font-size: 12px; color: rgb(119, 119, 119); overflow: hidden }
+.tt_2{position: absolute; right: 0px; top: 0px; width: 90px; text-align: center; font-size: 14px; z-index: 999; color: rgb(77, 77, 77) }
 
 #main1_right{float: left; width: 308px; height: auto; overflow: hidden;}
 #tabs2{width: 100%; height: 38px; background-image: url("images/tabs_bg1.jpg");}
+#tabs2 li{cursor: pointer; float: left; width: 50%; height: 38px; line-height: 38px; text-align: center; font-size: 14px; font-weight: 700;}
 #wangyin{width: 100%; height: 312px; background-color: #ddd; background-image: url("images/wangyin_bg.jpg");}
+.wy{width: 100%; padding-top: 10px;}
+.no1{background-image: url("images/wangyin_bg2.jpg");background-repeat: no-repeat;background-position: 50% 100%;}
+.wy li{width: 100%; height: 55px; line-height: 50px; text-align: center; }
+.wy a{text-decoration: none; color: #4d4d4d; display: block; font-size: 14px;}
+.wy a:hover{color: #f00;}
+.wyb{width: 100%; height: 55px; line-height: 55px; margin-top: 10px; background-image: url("images/wangyin_bg3.jpg"); background-repeat: repeat-x;}
+.wyb p{float: left; width: 33%; text-align: center; font-size: 14px;}
+.no2{text-decoration: none; color: #4d4d4d;}
+.red{color: #f00;}
+.wyb a:hover{color: #f00;}
+#wangyin2{display: none;}
+#wangyin2 p{float: left; width: 50%; text-align: center; font-size: 14px;}
 
 #main2{width: 978px; height: 41px; overflow: hidden; margin: 10px auto;}
-#main2_1{float: left; width: 99px; height: 41px; background-image: url("images/s.jpg"); background-position: 0 -294px;background-repeat: no-repeat;}
+#main2_1{float: left; width: 99px; height: 41px; background-image: url("images/s.jpg"); background-position: 0 -294px;background-repeat: no-repeat; line-height: 37px; text-align: left;}
+#main2_1 span{padding-left: 10px; font-size: 14px; font-weight: 700;}
 #main2_2{float: left; width: 810px; height: 41px; background-image: url("images/news_right.jpg");}
+#main2_2 a{margin-right: 20px; padding-right: 30px; height: 36px; line-height: 36px; display: inline-block;text-decoration: none;color: #4d4d4d;}
+#main2_2 a:hover{color: #f00;}
 #main2_3{float: left; width: 69px; height: 41px; background-image: url("images/news_right.jpg");}
+#main2_3 a{text-decoration: none; line-height: 36px;}
 
 #main3{width: 978px; height: auto; overflow: hidden; margin: 0px auto;}
-#main3_1{float: left; width: 325px; height: 146px; overflow: hidden; margin-right: 10px;}
-#main3_2{float: left; width: 325px; height: 146px; overflow: hidden; margin-right: 10px; background-image: url("images/main3_bg1.jpg");}
-#main3_3{float: left; width: 308px; height: 146px; overflow: hidden; background-image: url("images/main3_bg2.jpg");}
+#main3_1{float: left; width: 325px; height: 146px; overflow: hidden; margin-right: 10px; position: relative;}
+.ggimg{width: 325px;height: 146px;cursor: pointer; float: left; display: none;}
+#g1{display: inline;}
+#main3_2{text-align: left; float: left; width: 325px; height: 146px; overflow: hidden; margin-right: 10px; background-image: url("images/main3_bg1.jpg");}
+#main3_2 h3{width: 280px; height: 40px; line-height: 40px; margin: 0px auto; font-size: 14px; font-weight: 700; color: #fff; }
+#main3_2 ul{width: 280px; height: auto; overflow: hidden; margin: 0px auto;}
+#main3_2 li{float: left; width: 33%; height: 32px; line-height: 32px; }
+#main3_2 a{color:#fff; font-size: 14px; text-decoration: none;}
+.bg{background-image: url("images/main3_bg3.jpg");background-repeat: no-repeat;background-position: 80% 55%;}
 
-#foot{width: 1000px; height: 80px; margin: 10px auto 0px; background-image: url("images/main3_bg2.jpg");border-top: 2px solid rgb(40, 91, 154);overflow: hidden;}
+#main3_3{text-align: left; float: left; width: 308px; height: 146px; overflow: hidden; background-image: url("images/main3_bg2.jpg");}
+#main3_3 h3{width: 280px; height: 40px; line-height: 40px; margin: 0px auto; font-size: 14px; font-weight: 700; color: #4d4d4d; }
+#main3_3 ul{width: 280px; height: auto; overflow: hidden; margin: 0px auto;}
+#main3_3 li{float: left; width: 33%; height: 32px; line-height: 32px; }
+#main3_3 a{color:#4d4d4d; font-size: 14px; text-decoration: none;}
+.bg1{background-image: url("images/main3_bg4.jpg");background-repeat: no-repeat;background-position: 80% 55%;}
+#main3 a:hover{color: #f00;}
+#foot{width: 1000px; height: 80px; margin: 10px auto 0px; background-image: url("images/main3_bg2.jpg");background-position: 0px center; border-top: 2px solid rgb(40, 91, 154);overflow: hidden;}
+#footer{width: 800px; height: 65px; padding-top: 15px; text-align: center; margin: 0px auto;}
+#foot1{float: left; width: 50px;}
+#foot2{float: left; width: 540px; line-height: 20px; padding-top: 5px;}
+#foot3{float: left; width: 210px;}
+#foot3 img{float: left; margin: 10px 10px 0px 0px; width: 85px; height: 31px;}
