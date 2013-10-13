@@ -1,0 +1,65 @@
+body{position: absolute; width: 100%; height: 100%;overflow-x: hidden;text-align: center;}
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+
+
+#supersized{visibility: visible; display: block; position: fixed; z-index: -999; left: 0px; top: 0px; overflow: hidden; height: 100%; width: 100%;}
+#supersized li{z-index: -30; position: fixed; overflow: hidden; top: 0px; left: 0px; width: 100%; height: 100%;}
+#supersized img{height: 843px; width: 1349px; top: -100px; left: 0; position: relative;}
+
+#slide2{display: none;}
+#slide3{display: none;}
+#navbottom{position: fixed; z-index: 9999; right: 30px; top: 50%; transform: translate(0px, -50%);}
+#navbottom a{display: block; width: 30px; height: 35px; text-indent: -9999px; background-repeat: no-repeat; background-position: center center; margin: 10px 0px; opacity: 0.4;}
+#navbottom a:hover{opacity: 1;}
+.nav1{background-image: url("images/nav1.png");}
+.nav2{background-image: url("images/nav4.png");}
+.nav3{background-image: url("images/nav2.png");}
+.nav4{background-image: url("images/nav5.png");}
+.nav5{background-image: url("images/nav3.png");}
+.nav:hover{opacity: 1;}
+.mainContainer{position: relative; width: 100%; height: auto;}
+#homepage_wrap{position: relative; top: auto; left: auto; overflow: hidden; padding-top: 150px; padding-bottom: 150px;}
+.homepage{width: 100%; position: relative; left: auto; top: auto; transform: none;}
+.logoholder{display: block; text-align: center; margin-left: -55px;}
+.homepage h1{margin-top: 0px; text-align: center; font-size: 48px; text-transform: uppercase; font-family: 'Lato',Arial,sans-serif; color: #fff; font-weight: 700; line-height: 56px; background-image: url("images/divider.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 60px; margin-bottom: 10px;}
+.date{width: 484px; margin: 0px auto; overflow: hidden;}
+.datein{width: 121px;float: left; text-align: center; font-size: 50px; font-weight: 700; color: #fff; font-family: 'Lato',Arial,sans-serif;}
+.datein span{font-size: 18px; color: rgb(255, 100, 69);font-weight: 700; font-family: 'Lato',Arial,sans-serif;}
+#socials{margin-top: 100px; width: 100%; height:102px;}
+#socials ul{width: 100%;height:102px;}
+
+#socials img{width: 40px; height: 45px; margin: 3px; cursor: pointer; opacity: 0.4;}
+#about{position: relative; top: auto; left: auto; overflow: hidden; padding-top: 150px; padding-bottom: 150px; background-color: rgb(91, 1, 69); width: 100%; height: auto;}
+.aboutsection h1{margin-top: 0px; text-align: center; font-size: 48px; text-transform: uppercase; font-family: 'Lato',Arial,sans-serif; color: #fff; font-weight: 700; line-height: 56px; background-image: url("images/aboutdivider.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 60px; margin-bottom: 10px;}
+.aboutsection p{font-size: 18px; color: #fff; font-family: 'Dotum'; font-weight: 300;}
+.sectionHolder{margin-top: 35px; text-align: center; float: left; width: 415px; padding-left: 15px; padding-right: 15px;}
+.c1{width: 60px; height: 60px;}
+.sh{width: 50px; height: 50px; margin: 0 auto 0;}
+.sectionHolder img{transition: all 0.3s ease 0s;vertical-align: middle;}
+.sectionHolder h3{font-size: 20px; font-weight: 800; color: rgb(255, 100, 69); text-transform: uppercase; margin-bottom: 5px; margin-top:20px;}
+.sectionHolder p{margin-top: 10px; background-image: url("images/ab.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 15px; margin-bottom: 15px; font-size: 18px;font-family: 'Dotum';font-weight: 300;}
+.sectionHolder a{color: #fff; font-weight: 800; font-family: 'Lato',Arial;}
+
+#feed{position: relative; top: auto; left: auto; overflow: hidden; padding-top: 150px; padding-bottom: 150px;}
+.feeds{width: 100%; position: relative; left: auto; top: auto;}
+.feeds h1{margin-top: 0px; text-align: center; font-size: 48px; text-transform: uppercase; font-family: 'Lato',Arial,sans-serif; color: #fff; font-weight: 700; line-height: 56px; background-image: url("images/latestDivider.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 60px; margin-bottom: 10px;}
+.feeds p{font-size: 24px; font-weight: 300; font-family: 'Dotum'; line-height: 29px; text-align: center; width: 560px; color: #fff; margin: 0px auto;}
+.feeds a{color: #fff;}
+.follow{margin:15px;  display: block;font-weight: 700; font-family: 'Lato',Arial; text-transform: uppercase; background-image: url("images/tweetBorder.png"); background-repeat: no-repeat; background-position: center top; padding-top: 25px;}
+
+#prot{position: relative; top: auto; left: auto; overflow: hidden; padding-top: 150px; padding-bottom: 150px; background-color: rgb(91, 1, 69); width: 100%; height: auto;}
+.prots{width: 100%; position: relative; left: auto; top: auto;}
+.prots h1{margin-top: 0px; text-align: center; font-size: 48px; text-transform: uppercase; font-family: 'Lato',Arial,sans-serif; color: #fff; font-weight: 700; line-height: 56px; background-image: url("images/portfoliodiv.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 60px; margin-bottom: 10px;}
+.prots p{font-size: 18px; color: #fff; font-family: 'Dotum'; font-weight: 300;}
+
+#picdiv{position: relative;overflow: hidden;height: 460px;width: 970px; margin: 10px auto;}
+.pica{width: 300px; height: 210px; margin: 10px; float: left; overflow: hidden; position: relative;}
+.pica span{display: block; width: 100%; height: 3%; bottom: 0px; left: 0px; position: absolute; background-color: rgb(255, 100, 69);background-repeat: no-repeat; background-position: center center;}
+#sub{position: relative; top: auto; left: auto; overflow: hidden; padding-top: 150px; padding-bottom: 150px;}
+.subs{width: 100%; position: relative; left: auto; top: auto;}
+.subs h1{margin-top: 0px; text-align: center; font-size: 48px; text-transform: uppercase; font-family: 'Lato',Arial,sans-serif; color: #fff; font-weight: 700; line-height: 56px; background-image: url("images/subdivider.png"); background-repeat: no-repeat; background-position: center bottom; padding-bottom: 60px; margin-bottom: 10px;}
+.txtemail{width: 40%;display: block; margin: 0px auto; background-color: transparent; color: #fff; height: 30px; text-align: center; font-family: 'Lato',Arial; border:0px; border-bottom: 2px solid rgb(255, 100, 69); font-size: 14px;}
+.subbtn{cursor: pointer; display: block; margin: 20px auto 0px; width: 90px; padding-top: 15px; text-align: center; background-color: transparent; color: #fff;font-weight: 800;font-family: 'Lato',Arial;font-size: 20px;border: medium none;background-image: url("images/-.png");background-repeat: no-repeat;background-position: center top;}
